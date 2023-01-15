@@ -1,0 +1,22 @@
+{
+  "name": "Weater",
+  "version": "1.0.0",
+  "description": "WEather APP",
+  "main": "index.js",
+  "repository": "https://github.com/Oybekkarimov/Weather-APP.git",
+  "author": "Oybek DEV",
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "dev": "parcel ./src/html/*.html --open",
+    "build": "parcel build ./src/html/*.html"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "axios": "^1.2.2",
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0"
+  }
+}
